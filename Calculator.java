@@ -7,11 +7,11 @@ public class Calculator {
         
         Scanner scan = new Scanner (System.in);
         
-        System.out.print ("Please select an operator");
-        System.out.print ("1. Add");
-        System.out.print ("2. Subtract");
-        System.out.print ("3. Divide");
-        System.out.print ("4. Multiply");
+        System.out.println("Please select an operator");
+        System.out.println("1. Add");
+        System.out.println("2. Subtract");
+        System.out.println("3. Divide");
+        System.out.println("4. Multiply");
         
         operator = scan.nextInt();
         
