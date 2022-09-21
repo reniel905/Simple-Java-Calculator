@@ -7,6 +7,8 @@ public class Calculator {
         
         Scanner scan = new Scanner (System.in);
         
+        while (true) {
+        
         System.out.println("Please select an operator");
         System.out.println("1. Add");
         System.out.println("2. Subtract");
@@ -19,7 +21,8 @@ public class Calculator {
         firstNumber = scan.nextInt();
         System.out.print("Enter your second numnber: ");
         secondNumber = scan.nextInt();
-        
+        }
+
         switch (operator) {
             
             case 1 -> System.out.print(firstNumber + secondNumber);
